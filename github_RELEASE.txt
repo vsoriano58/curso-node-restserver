@@ -1,0 +1,23 @@
+Después de subirlo todo con los siguientes comandos:
+
+	git remote add origin git@github.com:vsoriano58/curso-node-restserver.git
+	git branch -M main
+	git push -u origin main
+
+Hicimos:
+
+	git tag -a v1.0.0 -m "Fin sección 8"
+
+Y luego subimos los tags:
+
+ 	git push --tags	
+
+
+Desde el repo Github, le damos a la derecha a Release
+Luego a edit Release
+Y ponemos un título y una descripción
+Y finalmente le damos a Update release
+
+
+De esta forma, desde el enlace de la release nos podemos bajar un zip de cómo
+estaba la aplicación en el momento de hacer la release.
